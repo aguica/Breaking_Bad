@@ -1,0 +1,338 @@
+.bg-image body {
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Breaking_Bad";
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Breaking_Bad";
+  src: url("../fonts/Breaking_Bad.ttf") format("truetype");
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+.cabecera_prime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.cabecera_prime img {
+  width: 200px;
+  height: 200px;
+}
+
+.frase_indice {
+  font-family: sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 0 0 10px #272321;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.poster {
+  width: 700px;
+  height: 300px;
+  border: 10px outset #461600;
+  border-radius: 22px;
+  box-shadow: 0 0 10px 5px #272321;
+}
+
+.header_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.header_form h3 {
+  font-size: 3.5em;
+  color: whitesmoke;
+  text-shadow: 0 0 10px #000000;
+}
+
+.header_form_2 {
+  font-size: 2.5em;
+  color: whitesmoke;
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.form-section {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.form-section h2 {
+  font-size: 1.8em;
+  color: whitesmoke;
+  text-shadow: 0 0 10px #000000;
+}
+
+.form-section_title {
+  font-size: 1.5em;
+  color: whitesmoke;
+  text-shadow: 0 0 10px #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 1.6em;
+}
+
+form label {
+  color: rgb(0, 0, 0);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mensaje {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #1c2d1f;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #1c2d1f;
+}
+
+.tabla_body>body {
+  background-color: #0c3e11 !important;
+}
+
+.tabla_uno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 1rem 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabla_uno h1 {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0), -2px -2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulit,
+.h1_ba_tit {
+  background: #7fdd05;
+  padding: 0.8rem;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0), -2px -2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tabla_abajo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem;
+  margin-left: 380px;
+}
+
+.tabla_abajo p {
+  color: #a80000;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  margin-left: 1.3rem;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px auto 0;
+  padding: 5px;
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+  border: 10px solid #000000;
+  text-align: center;
+  width: 80px;
+  height: 100px;
+  background-color: #558811;
+}
+
+table>tbody>td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td>p {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+td>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.filaunodos {
+  background-color: #000000;
+}
+
+.hanksch {
+  background-image: url("../img/tabla_periodica/hankschrader.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mariesch {
+  background-color: #8760bb;
+}
+
+.blanco {
+  background-color: #f0f7c8;
+}
+
+.verde_oscuro {
+  background-color: #63702a;
+}
+
+.verdosos {
+  background-color: #bcc49b;
+}
+
+.verdecito {
+  background-color: #828c56;
+}
+
+.verde_amarillito {
+  background-color: #d4e87d;
+}
+
+.verde-lima {
+  background-color: #b7d91e;
+}
+
+.lima-limon {
+  background-color: #c6e04f;
+}
+
+.tabla_dos {
+  width: 45% !important;
+  border: 3px solid #000;
+  border-collapse: collapse;
+}
+
+.tabla_dos td {
+  background-color: #c2c72a;
+}
+
+.tabla_dos img {
+  width: 70%;
+}
+
+.tabla_dos td span {
+  font-size: 0.8rem;
+}
